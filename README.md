@@ -6,13 +6,8 @@ A classic Snake Game implemented in Java using basic Object-Oriented Programming
 
 - [Introduction](#introduction)
 - [Concepts Used](#concepts-used)
-- [Installation](#installation)
-- [How to Run the Game](#how-to-run-the-game)
-- [Game Controls](#game-controls)
 - [Gameplay](#gameplay)
 - [Project Structure](#project-structure)
-- [Credits](#credits)
-- [License](#license)
 
 ## Introduction
 
@@ -27,39 +22,6 @@ The project demonstrates the following concepts:
 - **Event Handling**: The game uses key events to control the snake's movement and a timer for game progression.
 - **Swing**: Java Swing is used for creating the game window and rendering graphics.
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/snake-game.git
-    ```
-2. **Navigate to the project directory**:
-    ```bash
-    cd snake-game
-    ```
-3. **Compile the Java files**:
-    ```bash
-    javac -d bin src/snakegame/*.java
-    ```
-4. **Run the game**:
-    ```bash
-    java -cp bin snakegame.Main
-    ```
-
-## How to Run the Game
-
-After compiling and running the game, a window will open displaying the game board. The game starts immediately, and you can control the snake using the arrow keys on your keyboard.
-
-## Game Controls
-
-- **Arrow Keys**: Use the arrow keys to change the direction of the snake.
-    - **Left Arrow**: Turn left
-    - **Right Arrow**: Turn right
-    - **Up Arrow**: Move up
-    - **Down Arrow**: Move down
-
 ## Gameplay
 
 - The snake moves continuously in the current direction.
@@ -73,11 +35,3 @@ After compiling and running the game, a window will open displaying the game boa
 - **`src/snakegame/Main.java`**: The entry point of the game that sets up the game window.
 - **`src/snakegame/icons/`**: Contains the images used for the snake's head, body, and apples.
 
-## Credits
-
-- **Images**: Icons for the apple, dot, and snake head are used from the `icons` directory.
-- **Java Swing**: The game utilizes Java Swing for the graphical user interface.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
